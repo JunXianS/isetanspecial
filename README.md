@@ -6,6 +6,7 @@ Html5+css3+jquery+slickjs+兼容多终端响应式
 ② https://amyidol.github.io/isetanspecial/isetanspecial/sp.html </br>
 ③ https://amyidol.github.io/isetanspecial/isetanspecial/sp-course-01-06.html </br>
 另外：预览页面加载可能会很慢，因为这个css字体文件的引入问题，是外部的font文件，因为还不太会怎样修改，目前暂时用的是文档中的font文件，
+感谢指教。
 ### 说明：</br>
  index.html页面适配多种终端，
  sp.html页面为移动端页面</br>
