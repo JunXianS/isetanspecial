@@ -17,25 +17,25 @@ Html5+css3+jquery+slickjs+兼容多终端响应式
 2，	页边的四条边框线#body-frame1：</br>
 　固定上下在页面的上下左右四个方向。</br>
 　用css3的anmition动画制作，包括动画延迟效果：</br>
-'''jxs
+` ``javascript
 	animation: fadeSide2 .3s .9s linear forwards;
   -webkit-animation: fadeSide2 .3s .9s linear forwards;
-'''
+` ``
 	描述点：通过js给html页面添加类名使边框显示隐藏。</br>
   
-'''jxs
+` ``javascript
   .is-loaded {
 	overflow-y: scroll;//显示横向滚动条。
 }
-'''
+` ``
 
 3，	jquery实现a锚点链接平滑过渡效果：</br>
 
-'''jxs
+` ``javascript
 // 锚点链接缓动效果:页面上的所有的a的href链接点击后均为缓动500速度平滑过渡。
    var s = $("a[href*='#']");  
    使用时，页面中的a链接处的href的不要直接挂个#号
-'''
+` ``
  4，	修改了t.addClass报错问题，对应的弹出框弹出对应的层：</br>
  　问题点：全局变量使用不当，当全局变量里定义的变量对应的是不同的dom时，局部变量用的时候，报错了。</br>
  　解决：局部变量中，变量使用时要注意一下。</br>
@@ -44,7 +44,7 @@ Html5+css3+jquery+slickjs+兼容多终端响应式
 ①slide的对象是li还是div根据自己写的页面结构修改
 ②slidejs插件在轮播的时候自动生成的button，修改样式的时候要把插件中默认的css样式复制下。
 
-'''jxs
+` ``javascript
     // slickjs轮播图初始化设置
     $('.draggable').slick({
         dots: true,
@@ -57,7 +57,7 @@ Html5+css3+jquery+slickjs+兼容多终端响应式
         autoplaySpeed: 1000,
         arrows: false
     });
-'''
+` ``
 
 6，其他待更新。。。。
 
