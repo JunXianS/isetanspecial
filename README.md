@@ -9,8 +9,9 @@ Html5+css3+jquery+slickjs+兼容多终端响应式
 ### 说明：</br>
  index.html页面适配多种终端，
  sp.html页面为移动端页面</br>
- 还没做完待更新~嘤嘤嘤~</br>
- 
+ 待更新~嘤嘤嘤~</br>
+ js手写部分代码展示：</br>
+![image](https://raw.githubusercontent.com/wiki/Amyidol/isetanspecial/instans.png)
 ### 其中修改的部分过程：</br>
 0,	slickjs响应式轮播图插件使用，淡入淡出轮播图。</br>
 插件在初始化的时候，注意点：</br>
@@ -55,7 +56,7 @@ Html5+css3+jquery+slickjs+兼容多终端响应式
  　解决：局部变量中，变量使用时要注意一下。</br>
 
 
-6，其他待更新。。。。
+6，其他。。。。
 
  
  
